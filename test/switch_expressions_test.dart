@@ -15,7 +15,7 @@ void main() {
 
   test('Another switch expressions feature sample', () {
     expect(convertText('foo'), 'bar');
-    expect(convertText(''), 'The input text was empty.');
+    expect(convertText('a'), 'The input text length was one.');
     expect(convertText('random'), 'baz');
   });
 }

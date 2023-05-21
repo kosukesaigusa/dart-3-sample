@@ -38,6 +38,6 @@ enum Country {
 
 String convertText(String text) => switch (text) {
       'foo' => 'bar',
-      _ when text.isEmpty => 'The input text was empty.',
+      _ when text.length == 1 => 'The input text length was one.',
       _ => 'baz',
     };
