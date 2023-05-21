@@ -2,7 +2,7 @@ import 'package:dart_3_sample/switch_expressions.dart';
 import 'package:test/test.dart';
 
 void main() {
-  test('Switch expressions feature sample', () {
+  test('Switch expressions feature sample.', () {
     final capitalOfJapan = Country.japan.capital;
     expect(capitalOfJapan.$1, 'Tokyo');
     expect(capitalOfJapan.$2, 35.681236);
@@ -13,7 +13,7 @@ void main() {
     expect(Country.france.continent, 'Europe');
   });
 
-  test('Another switch expressions feature sample', () {
+  test('Another switch expressions feature sample.', () {
     expect(convertText('foo'), 'bar');
     expect(convertText('a'), 'The input text length was one.');
     expect(convertText('random'), 'baz');
