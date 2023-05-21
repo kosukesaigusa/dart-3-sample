@@ -12,4 +12,10 @@ void main() {
     expect(Country.uk.continent, 'Europe');
     expect(Country.france.continent, 'Europe');
   });
+
+  test('Another switch expressions feature sample', () {
+    expect(convertText('foo'), 'bar');
+    expect(convertText(''), 'The input text was empty.');
+    expect(convertText('random'), 'baz');
+  });
 }

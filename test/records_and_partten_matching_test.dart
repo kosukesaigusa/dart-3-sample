@@ -12,7 +12,7 @@ void main() {
     expect(lng, 139.767125);
   });
 
-  test('Another Records feature sample compared to class.', () {
+  test('Another records feature sample compared to class.', () {
     final json = <String, dynamic>{
       'name': 'Shohei Ohtani',
       'age': 28,

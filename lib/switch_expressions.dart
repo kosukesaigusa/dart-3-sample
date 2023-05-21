@@ -35,3 +35,9 @@ enum Country {
     };
   }
 }
+
+String convertText(String text) => switch (text) {
+      'foo' => 'bar',
+      _ when text.isEmpty => 'The input text was empty.',
+      _ => 'baz',
+    };
