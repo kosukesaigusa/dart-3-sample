@@ -1,4 +1,4 @@
-import 'package:dart_3_sample/records.dart';
+import 'package:dart_3_sample/records_and_pattern_matching.dart';
 import 'package:test/test.dart';
 
 void main() {

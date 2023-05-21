@@ -2,7 +2,7 @@ import 'package:dart_3_sample/switch_expressions.dart';
 import 'package:test/test.dart';
 
 void main() {
-  test('Switch Expressions feature sample', () {
+  test('Switch expressions feature sample', () {
     final capitalOfJapan = Country.japan.capital;
     expect(capitalOfJapan.$1, 'Tokyo');
     expect(capitalOfJapan.$2, 35.681236);
